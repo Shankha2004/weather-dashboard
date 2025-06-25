@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="weather">
+        <h1>Weather Dashboard</h1>
+        <hr>
+
+        <div class="city">
+        <h2>Search for a city</h2>
+        <div class="search-bar">
+        <input type="text" id="searchbox" placeholder="search for a place">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    </div>
+
+        <div class="weather-data">
+            <div class="temperature">
+          <span>Temperature</span> <span id="temp-value">--</span> °C</span>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+        </div>
+
+            <div class="description">
+               <span> Description </span><span id="description-text">--</span>
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="wind-speed">
+                <span>Wind Speed </span> <span id="wind-value">--</span> m/s
+                 <i class="fa-solid fa-wind"></i>
+            </div>
+            <div class="humidity">
+               <span> Humidity</span> <span id="humidity-value">--</span> %
+              <i class="fa-solid fa-water"></i>
+            </div>
+        </div>
+    </div>
+    <footer >
+    <p>© 2025 Shankha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
