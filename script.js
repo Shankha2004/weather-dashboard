@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function getWeather(city) {
-    const apiKey = "ada04174996b9d0b4e676738b91f322c"; 
+    const apiKey = "yout_api_key"; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(apiUrl)
